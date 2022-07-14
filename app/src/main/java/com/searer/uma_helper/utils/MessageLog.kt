@@ -1,9 +1,9 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.content.Context
 import android.os.Build
 import android.util.Log
-import com.steve1316.uma_android_training_helper.MainActivity
+import com.searer.uma_helper.MainActivity
 import java.io.File
 import java.text.SimpleDateFormat
 import java.time.LocalDateTime

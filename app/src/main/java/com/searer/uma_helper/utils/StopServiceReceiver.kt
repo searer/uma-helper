@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.content.BroadcastReceiver
 import android.content.Context

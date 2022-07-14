@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.annotation.SuppressLint
 import android.app.Service
@@ -16,9 +16,9 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.ImageButton
 import android.widget.Toast
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.R
-import com.steve1316.uma_android_training_helper.bot.Game
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.R
+import com.searer.uma_helper.bot.Game
 import kotlin.concurrent.thread
 import kotlin.math.roundToInt
 

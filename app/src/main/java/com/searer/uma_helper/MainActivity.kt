@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper
+package com.searer.uma_helper
 
 import android.content.Intent
 import android.net.Uri
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 		// Set the Link to the "Go to GitHub" button.
 		val githubTextView: TextView = findViewById(R.id.github_textView)
 		githubTextView.setOnClickListener {
-			val newIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/steve1316/uma-android-training-helper"))
+			val newIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/searer/uma-helper"))
 			startActivity(newIntent)
 		}
 		

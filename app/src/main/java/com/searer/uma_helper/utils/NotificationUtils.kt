@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -8,8 +8,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.R
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.R
 
 /**
  * Contains the utility functions for creating a Notification.

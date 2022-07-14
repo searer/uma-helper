@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.ui.settings
+package com.searer.uma_helper.ui.settings
 
 import android.app.AlertDialog
 import android.content.Context
@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.core.content.edit
 import androidx.preference.*
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.R
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.R
 
 class SettingsFragment : PreferenceFragmentCompat() {
 	private val TAG: String = "[${MainActivity.loggerTag}]SettingsFragment"

@@ -1,11 +1,11 @@
-package com.steve1316.uma_android_training_helper.bot
+package com.searer.uma_helper.bot
 
 import android.content.Context
 import android.util.Log
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.utils.ImageUtils
-import com.steve1316.uma_android_training_helper.utils.MediaProjectionService
-import com.steve1316.uma_android_training_helper.utils.MessageLog
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.utils.ImageUtils
+import com.searer.uma_helper.utils.MediaProjectionService
+import com.searer.uma_helper.utils.MessageLog
 import java.util.concurrent.TimeUnit
 
 /**

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.steve1316.uma_android_training_helper">
+    package="com.searer.uma_helper">
 
     <!--Grants permission for MediaProjection to display a Notification that tells users that it is currently running.-->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -21,12 +21,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UmaAndroidTrainingHelper"
+        android:theme="@style/Theme.UmaHelper"
         tools:ignore="AllowBackup">
 
         <!--Users will first be directed to MainActivity and then to HomeFragment.-->
         <activity
-            android:name="com.steve1316.uma_android_training_helper.MainActivity"
+            android:name="com.searer.uma_helper.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.AppTheme.NoActionBar">
             <intent-filter>
@@ -38,15 +38,15 @@
 
         <!--The MediaProjection service that controls taking screenshots of the screen.-->
         <service
-            android:name="com.steve1316.uma_android_training_helper.utils.MediaProjectionService"
+            android:name="com.searer.uma_helper.utils.MediaProjectionService"
             android:foregroundServiceType="mediaProjection" />
 
         <!--Bot Service that will automate the specified workflow.-->
-        <service android:name="com.steve1316.uma_android_training_helper.utils.BotService" />
+        <service android:name="com.searer.uma_helper.utils.BotService" />
 
         <!--Receiver that will send the "STOP" Intent to MediaProjection Service when the action button on the Notification is tapped.-->
         <receiver
-            android:name="com.steve1316.uma_android_training_helper.utils.StopServiceReceiver"
+            android:name="com.searer.uma_helper.utils.StopServiceReceiver"
             android:enabled="true"
             android:process=":remote" />
     </application>

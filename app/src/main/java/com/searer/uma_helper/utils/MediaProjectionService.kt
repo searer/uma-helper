@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -23,8 +23,8 @@ import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.R
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.R
 import kotlinx.coroutines.*
 import java.io.File
 import java.io.FileOutputStream

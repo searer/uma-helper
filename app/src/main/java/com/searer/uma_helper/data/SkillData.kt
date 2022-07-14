@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.data
+package com.searer.uma_helper.data
 
 class SkillData {
 	companion object {

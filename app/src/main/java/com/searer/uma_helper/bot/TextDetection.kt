@@ -1,15 +1,15 @@
-package com.steve1316.uma_android_training_helper.bot
+package com.searer.uma_helper.bot
 
 import android.content.Context
 import android.util.Log
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.data.CharacterData
-import com.steve1316.uma_android_training_helper.data.SkillData
-import com.steve1316.uma_android_training_helper.data.StatusData
-import com.steve1316.uma_android_training_helper.data.SupportData
-import com.steve1316.uma_android_training_helper.ui.settings.SettingsFragment
-import com.steve1316.uma_android_training_helper.utils.ImageUtils
-import com.steve1316.uma_android_training_helper.utils.NotificationUtils
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.data.CharacterData
+import com.searer.uma_helper.data.SkillData
+import com.searer.uma_helper.data.StatusData
+import com.searer.uma_helper.data.SupportData
+import com.searer.uma_helper.ui.settings.SettingsFragment
+import com.searer.uma_helper.utils.ImageUtils
+import com.searer.uma_helper.utils.NotificationUtils
 import net.ricecode.similarity.JaroWinklerStrategy
 import net.ricecode.similarity.StringSimilarityServiceImpl
 import java.text.DecimalFormat

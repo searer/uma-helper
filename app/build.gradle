@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.steve1316.uma_android_training_helper"
+        applicationId "com.searer.uma_helper"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 31
@@ -29,7 +29,7 @@ android {
                 variant.outputs.all { output ->
                     def versionName = defaultConfig.versionName
                     def architecture = output.filters[0].identifier
-                    outputFileName = "v${versionName}-UmaAndroidTrainingHelper-${architecture}.apk"
+                    outputFileName = "v${versionName}-UmaHelper-${architecture}.apk"
                 }
             }
         }

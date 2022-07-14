@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.ui.home
+package com.searer.uma_helper.ui.home
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -22,13 +22,13 @@ import androidx.preference.PreferenceManager
 import com.beust.klaxon.JsonReader
 import com.github.javiersantos.appupdater.AppUpdater
 import com.github.javiersantos.appupdater.enums.UpdateFrom
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.R
-import com.steve1316.uma_android_training_helper.data.CharacterData
-import com.steve1316.uma_android_training_helper.data.SkillData
-import com.steve1316.uma_android_training_helper.data.SupportData
-import com.steve1316.uma_android_training_helper.utils.MediaProjectionService
-import com.steve1316.uma_android_training_helper.utils.MessageLog
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.R
+import com.searer.uma_helper.data.CharacterData
+import com.searer.uma_helper.data.SkillData
+import com.searer.uma_helper.data.SupportData
+import com.searer.uma_helper.utils.MediaProjectionService
+import com.searer.uma_helper.utils.MessageLog
 import java.io.StringReader
 
 class HomeFragment : Fragment() {
@@ -185,7 +185,7 @@ class HomeFragment : Fragment() {
 		// Set up the app updater to check for the latest update from GitHub.
 		AppUpdater(myContext)
 			.setUpdateFrom(UpdateFrom.XML)
-			.setUpdateXML("https://raw.githubusercontent.com/steve1316/uma-android-training-helper/main/app/update.xml")
+			.setUpdateXML("https://raw.githubusercontent.com/searer/uma-helper/main/app/update.xml")
 			.start()
 	}
 	

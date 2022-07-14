@@ -1,4 +1,4 @@
-package com.steve1316.uma_android_training_helper.utils
+package com.searer.uma_helper.utils
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -6,9 +6,9 @@ import android.graphics.BitmapFactory
 import android.util.Log
 import androidx.preference.PreferenceManager
 import com.googlecode.tesseract.android.TessBaseAPI
-import com.steve1316.uma_android_training_helper.MainActivity
-import com.steve1316.uma_android_training_helper.bot.Game
-import com.steve1316.uma_android_training_helper.ui.settings.SettingsFragment
+import com.searer.uma_helper.MainActivity
+import com.searer.uma_helper.bot.Game
+import com.searer.uma_helper.ui.settings.SettingsFragment
 import org.opencv.android.Utils
 import org.opencv.core.*
 import org.opencv.imgcodecs.Imgcodecs
